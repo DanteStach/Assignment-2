@@ -84,8 +84,9 @@ def main():
             skipped = int(input("How many CS 1430 classes would you skip? "))
             total = cost_of_skipped_classes(annual_cost, credits, skipped)
             print(f"The cost of {skipped} skipped classes is ${total:,.2f}")
-
-        if choice == "Q":
+            
+            
+        elif choice == "Q":
             break
 
         # Add a branch for each menu option here.

@@ -8,7 +8,7 @@ Commit      : unknown
 Message     : 
 Author      : 
 Committed   : 
-Checked     : 2026-10-19 19:55:50 SA Pacific Standard Time
+Checked     : 2026-10-19 20:19:44 SA Pacific Standard Time
 Python      : 3.14.7
 
 ================================================================
@@ -36,9 +36,10 @@ CHECK RESULTS
 --- Git and GitHub (required for your points to count) ---
 [PASS] Git is installed
 [PASS] This folder is a Git repository
-[FAIL] You have committed your own work
-   > So far there is only the template's first commit.
-   > In Source Control, type a message and click Commit.
+[PASS] You have committed your own work
+[FAIL] Your latest changes are committed
+   > main.py has changes that are not committed yet.
+   > Save, then Commit in Source Control, so GitHub has what check.py tested.
 
 POINTS FROM check.py: 40 / 40
 
@@ -56,7 +57,6 @@ THE COST OF COLLEGE
 6. Cost of skipped classes
 Q. Quit
 Choose an option: One semester costs $7,300.50
-Invalid choice. Please select 1-6 or Q.
 
 THE COST OF COLLEGE
 1. Cost per semester
@@ -67,7 +67,6 @@ THE COST OF COLLEGE
 6. Cost of skipped classes
 Q. Quit
 Choose an option: One academic month costs $1,622.33
-Invalid choice. Please select 1-6 or Q.
 
 THE COST OF COLLEGE
 1. Cost per semester
@@ -78,7 +77,6 @@ THE COST OF COLLEGE
 6. Cost of skipped classes
 Q. Quit
 Choose an option: One class day costs $97.34
-Invalid choice. Please select 1-6 or Q.
 
 THE COST OF COLLEGE
 1. Cost per semester
@@ -89,7 +87,6 @@ THE COST OF COLLEGE
 6. Cost of skipped classes
 Q. Quit
 Choose an option: One credit costs $486.70
-Invalid choice. Please select 1-6 or Q.
 
 THE COST OF COLLEGE
 1. Cost per semester
@@ -100,7 +97,6 @@ THE COST OF COLLEGE
 6. Cost of skipped classes
 Q. Quit
 Choose an option: One CS 1430 class costs $32.45
-Invalid choice. Please select 1-6 or Q.
 
 THE COST OF COLLEGE
 1. Cost per semester
